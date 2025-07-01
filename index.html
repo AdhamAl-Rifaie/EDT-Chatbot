@@ -1,0 +1,541 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <head>
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+        <link
+          rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+        />
+      </head>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="Css/test.css">
+    <title>Document</title>
+    <style>
+        div.projectName a {
+           transition: .7s;
+            color: #82B479;
+        }
+        div.projectName a:hover{
+            color: #4c9040;
+            
+        }
+        div.right a  {
+    color:#82B479
+}
+div.right a:hover {
+    color: #4c9040;
+}
+
+    </style>
+</head>
+<body >
+    
+    <nav class="navbar navbar-expand-lg bg-body-tertiary sticky-top ">
+        <div class="container-fluid d-flex justify-content-between mx-4">
+
+            <div class="projectName animate__animated animate__fadeInLeftBig">
+                <a class="navbar-brand " href="#">EDT-ChatBot</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
+
+          <div class="centerImg">
+            <a href="">
+
+                <img src="media/logo.png" style="width: 4rem;" alt="" class="animate__fadeInDownBig animate__animated">
+            </a>
+          </div>
+
+          <!-- <div class="collapse navbar-collapse" id="navbarNavAltMarkup"> -->
+            <div class="navbar-nav right">
+                <a class="nav-link px-3 animate__animated animate__fadeInUpBig"  aria-current="page" href="#goal">Goal</a>
+                <a class="nav-link px-3 animate__animated animate__fadeInUpBig"  href="#team">Team</a>
+                <a class="nav-link px-3 animate__animated animate__fadeInUpBig"  href="#technologies">Technologies</a>
+            </div>
+          <!-- </div> -->
+        </div>
+      </nav>
+      <!-- HERO DIV -->
+      <div class="parent">
+
+          <div class="heroImg">
+              <img src="media/4824.jpg" alt="" class="animate__animated animate__fadeIn">
+              <div class="heroP">
+                  <h1 class="mb-4 animate__animated animate__fadeInDown">Therapy ChatBot</h1>
+                  <p class="mb-4 animate__animated animate__fadeInRight">We’re <b>6 AI students from Delta University</b>, building a chatbot to support mental health.
+                    It’s made especially for teens and anyone struggling but unable to talk to a therapist.
+                    Our goal is to offer a safe, comforting space where people feel heard and less alone.</p>
+                    <a href="http://127.0.0.1:8000">
+                        <button class="animate__animated animate__fadeInUp">Chat Now</button>
+
+                    </a>
+              </div>
+            </div>
+        </div>
+        <!-- <div class="container">
+            <hr style="color:#466AA6; height:2px">
+        </div>
+        <h1 style="text-align: center; color:#82B479;">Goal</h1> -->
+        
+        <div class="team">
+            <h1 style="text-align: center;" id="team">Team Members</h1>
+            <div class="container mt-5">
+                <div class="row justify-content-between ms-5">
+                    <div class="content col-md-4 col-sm-6 col-12">
+                        <img src="media/Adham.png" alt="Team Member 1">
+                        <div class="role-text">
+                            <h4 class="role-title">Front-End Developer</h4>
+                            <p class="role-description">Leads team planning and execution</p>
+                        </div>
+                    </div>
+                    
+                    <div class="content col-md-4 col-sm-6 col-12">
+                        <img src="media/Mohanad.pn" alt="Team Member 2">
+                        <div class="role-text">
+                            <h4 class="role-title">ChatBot Model</h4>
+                            <p class="role-description">Oversees technical implementation</p>
+                        </div>
+                    </div>
+                    <div class="content col-md-4 col-sm-6 col-12">
+                        <img src="media/Hazem.JP" alt="Team Member 2">
+                        <div class="role-text">
+                            <h4 class="role-title">ChatBot Model</h4>
+                            <p class="role-description">Oversees technical implementation</p>
+                        </div>
+                    </div>
+                    
+                </div>
+
+                <!-- <div class="row justify-content-between ms-5">
+                    <div class="content col-md-4 col-sm-6 col-12">
+                        <img src="media/Salma.png" alt="Team Member 1">
+                        <div class="role-text">
+                            <h4 class="role-title">Front-End Developer</h4>
+                            <p class="role-description">Leads team planning and execution</p>
+                        </div>
+                    </div>
+                    
+                    <div class="content col-md-4 col-sm-6 col-12">
+                        <img src="media/Raghd.png" alt="Team Member 3">
+                        <div class="role-text">
+                            <h4 class="role-title">Computer Vision</h4>
+                            <p class="role-description">Creates intuitive user experiences</p>
+                        </div>
+                    </div>
+                    
+                    <div class="content col-md-4 col-sm-6 col-12">
+                        <img src="media/Asia.jpg" alt="Team Member 3">
+                        <div class="role-text">
+                            <h4 class="role-title">Computer Vision</h4>
+                            <p class="role-description">Creates intuitive user experiences</p>
+                        </div>
+                    </div>
+                </div> -->
+            </div>
+
+
+            <div class="tech" id="technologies">
+                <div class="container">
+                    <!-- CHATBOT -->
+                    <h1 class="mb-2">Ai-ChatBot:</h1>
+                    <p class="mb-2">We've used various technologies to make the chatbot vary from the language used to libraries:  </p>
+                    <div class="row align-items-center justify-content-between">
+                        <div class="logo d-flex flex-column col-md-3 align-items-center">
+                            <img src="media/py.png" alt="python" style="width: 40%;" title="python">
+                            <!-- <span>Python</span> -->
+                        </div>
+
+                        <div class="logo d-flex flex-column col-md-3 align-items-center">
+                            <img src="media/FastAPI_logo.svg.png" alt="FastAPI" style="width: 80%;" title="FastAPi">
+                            <!-- <span>FastAPI</span> -->
+                        </div>
+                        <div class="logo d-flex flex-column col-md-3 align-items-center">
+                            <img src="media/pngwing.com.png" alt="Llama model" style="width: 80%;" title="Llama Model">
+                            <!-- <span>Llama API</span> -->
+                        </div>
+
+                        <div class="logo d-flex flex-column col-md-3 align-items-center">
+<svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" id="Langchain--Streamline-Simple-Icons" height="200" width="200"><desc>Langchain Streamline Icon: https://streamlinehq.com</desc><title>LangChain</title><path d="M6.0988 5.9175C2.7359 5.9175 0 8.6462 0 12s2.736 6.0825 6.0988 6.0825h11.8024C21.2641 18.0825 24 15.3538 24 12s-2.736 -6.0825 -6.0988 -6.0825ZM5.9774 7.851c0.493 0.0124 1.02 0.2496 1.273 0.6228 0.3673 0.4592 0.4778 1.0668 0.8944 1.4932 0.5604 0.6118 1.199 1.1505 1.7161 1.802 0.4892 0.5954 0.8386 1.2937 1.1436 1.9975 0.1244 0.2335 0.1257 0.5202 0.31 0.7197 0.0908 0.1204 0.5346 0.4483 0.4383 0.5645 0.0555 0.1204 0.4702 0.286 0.3263 0.4027 -0.1944 0.04 -0.4129 0.0476 -0.5616 -0.1074 -0.0549 0.126 -0.183 0.0596 -0.2819 0.0432a4 4 0 0 0 -0.025 0.0736c-0.3288 0.0219 -0.5754 -0.3126 -0.732 -0.565 -0.3111 -0.168 -0.6642 -0.2702 -0.982 -0.446 -0.0182 0.2895 0.0452 0.6485 -0.231 0.8353 -0.014 0.5565 0.8436 0.0656 0.9222 0.4804 -0.061 0.0067 -0.1286 -0.0095 -0.1774 0.0373 -0.2239 0.2172 -0.4805 -0.1645 -0.7385 -0.007 -0.3464 0.174 -0.3808 0.3161 -0.8096 0.352 -0.0237 -0.0359 -0.0143 -0.0592 0.0059 -0.0811 0.1207 -0.1399 0.1295 -0.3046 0.3356 -0.3643 -0.2122 -0.0334 -0.3899 0.0833 -0.5686 0.1757 -0.2323 0.095 -0.2304 -0.2141 -0.5878 0.0164 -0.0396 -0.0322 -0.0208 -0.0615 0.0018 -0.0864 0.0908 -0.1107 0.2102 -0.127 0.345 -0.1208 -0.663 -0.3686 -0.9751 0.4507 -1.2813 0.0432 -0.092 0.0243 -0.1265 0.1068 -0.1845 0.1652 -0.05 -0.0548 -0.0123 -0.1212 -0.0099 -0.1857 -0.0598 -0.028 -0.1356 -0.041 -0.1179 -0.1366 -0.1171 -0.0395 -0.1988 0.0295 -0.286 0.0952 -0.0787 -0.0608 0.0532 -0.1492 0.0776 -0.2125 0.0702 -0.1216 0.23 -0.025 0.3111 -0.1126 0.2306 -0.1308 0.552 0.0814 0.8155 0.0455 0.203 0.0255 0.4544 -0.1825 0.3526 -0.39 -0.2171 -0.2767 -0.179 -0.6386 -0.1839 -0.9695 -0.0268 -0.1929 -0.491 -0.4382 -0.6252 -0.6462 -0.1659 -0.1873 -0.295 -0.4047 -0.4243 -0.6182 -0.4666 -0.9008 -0.3198 -2.0584 -0.9077 -2.8947 -0.266 0.1466 -0.6125 0.0774 -0.8418 -0.119 -0.1238 0.1125 -0.1292 0.2598 -0.139 0.4161 -0.297 -0.2962 -0.2593 -0.8559 -0.022 -1.1855 0.0969 -0.1302 0.2127 -0.2373 0.342 -0.3316 0.0292 -0.0213 0.0391 -0.0419 0.0385 -0.0747 0.1174 -0.5267 0.5764 -0.7391 1.0694 -0.7267m12.4071 0.46c0.5575 0 1.0806 0.2159 1.474 0.6082s0.61 0.9145 0.61 1.4704c0 0.556 -0.2167 1.078 -0.61 1.4698v0.0006l-0.902 0.8995a2.08 2.08 0 0 1 -0.8597 0.5166l-0.0164 0.0047 -0.0058 0.0164a2.05 2.05 0 0 1 -0.474 0.7308l-0.9018 0.8995c-0.3934 0.3924 -0.917 0.6083 -1.4745 0.6083s-1.0806 -0.216 -1.474 -0.6083c-0.813 -0.8107 -0.813 -2.1294 0 -2.9402l0.9019 -0.8995a2.056 2.056 0 0 1 0.858 -0.5143l0.017 -0.0053 0.0058 -0.0158a2.07 2.07 0 0 1 0.4752 -0.7337l0.9018 -0.8995c0.3934 -0.3924 0.9171 -0.6083 1.4745 -0.6083zm0 0.8965a1.18 1.18 0 0 0 -0.8388 0.3462l-0.9018 0.8995a1.181 1.181 0 0 0 -0.3427 0.9252l0.0053 0.0572c0.0323 0.2652 0.149 0.5044 0.3374 0.6917 0.13 0.1296 0.2733 0.2114 0.4471 0.2686a0.9 0.9 0 0 1 0.014 0.1582 0.884 0.884 0 0 1 -0.2609 0.6304l-0.0554 0.0554c-0.3013 -0.1028 -0.5525 -0.253 -0.7794 -0.4792a2.06 2.06 0 0 1 -0.5761 -1.0968l-0.0099 -0.0578 -0.0461 0.0368a1.1 1.1 0 0 0 -0.0876 0.0794l-0.9024 0.8995c-0.4623 0.461 -0.4623 1.212 0 1.673 0.2311 0.2305 0.535 0.346 0.8394 0.3461 0.3043 0 0.6077 -0.1156 0.8388 -0.3462l0.9019 -0.8995c0.4623 -0.461 0.4623 -1.2113 0 -1.673a1.17 1.17 
+    0 0 0 -0.4367 -0.2749 1 1 0 0 1 -0.014 -0.1611c0 -0.2591 0.1023 -0.505 0.2901 -0.6923 0.3019 0.1028 0.57 0.2694 0.7962 0.495 0.3007 0.2999 0.4994 0.679 0.5756 1.0968l0.0105 0.0578 0.0455 -0.0373a1.1 1.1 0 0 0 0.0887 -0.0794l0.902 -0.8996c0.4622 -0.461 0.4628 -1.2124 0 -1.6735a1.18 1.18 0 0 0 -0.8395 -0.3462Zm-9.973 5.1567 -0.0006 0.0006c-0.0793 0.3078 -0.1048 0.8318 -0.506 0.847 -0.033 0.1776 0.1228 0.2445 0.2655 0.1874 0.141 -0.0645 0.2081 0.0508 0.2557 0.1657 0.2177 0.0317 0.5394 -0.0725 0.5516 -0.3298 -0.325 -0.1867 -0.4253 -0.5418 -0.5662 -0.8709" fill="#000000" stroke-width="1"></path></svg>                           
+     <!-- <span>LangChain</span> -->
+                        </div>
+                    </div>
+                    <!-- FrontEnd -->
+                    <h1 class="mb-4">Front-End:</h1>
+                    <div class="row align-items-center justify-content-between">
+                        <div class="logo d-flex flex-column col-md-3 align-items-center">
+                            <img src="media/html.png" alt="html" style="width: 40%;" title="HTML">
+                            <!-- <span>Python</span> -->
+                        </div>
+
+                        <div class="logo d-flex flex-column col-md-3 align-items-center">
+                            <img src="media/css.png" alt="css" style="width: 40%;" title="CSS">
+                            <!-- <span>FastAPI</span> -->
+                        </div>
+                        <div class="logo d-flex flex-column col-md-3 align-items-center">
+                            <img src="media/bs.png" alt="bootStrap" style="width: 40%;" title="BootStrap">
+                            <!-- <span>Llama API</span> -->
+                        </div>
+
+                        <div class="logo d-flex flex-column col-md-3 align-items-center">
+                                <img src="media/js.png" alt="JavaScript" style="width: 40%;" title="JavaScript">
+     <!-- <span>LangChain</span> -->
+                        </div>
+                    </div>
+
+                    <!-- Computer Vision -->
+                    <h1 class="mb-5 mt-3">Computer Vision:</h1>
+                    <div class="row align-items-center justify-content-between">
+                        <div class="logo d-flex flex-column col-md-3 align-items-center">
+                            <img src="media/py.png" alt="python" style="width: 40%;" title="Python">
+                            <!-- <span>Python</span> -->
+                        </div>
+
+                        <div class="logo d-flex flex-column col-md-3 align-items-center">
+                            <img src="media/deepface-icon.png" alt="deepface" style="width: 40%;" title="Deep Face Model">
+                            <!-- <span>FastAPI</span> -->
+                        </div>
+                        <div class="logo d-flex flex-column col-md-3 align-items-center">
+                            <img src="media/streamlit-logo-png_seeklogo-441815.png" alt="streamlit" style="width: 50%;" title="StreamLit">
+                            <!-- <span>FastAPI</span> -->
+                        </div>
+                        
+                    </div>
+
+
+                </div>
+                
+            </div>
+           
+         <div class="goal float-start mb-5" id="goal">
+             <h1 style="text-align: center; color:white;" class="py-3">Our Goal</h1>
+             <div class="container-fluid textGoal " class="ms-">
+             <p data-aos="fade-left">Our mission is to build a therapy chatbot that genuinely supports mental well-being, especially for teenagers. At such a critical stage of growth, emotions can feel overwhelming, and many young people struggle to make sense of what they're feeling. We want to help them understand and express those emotions in a healthy way — before they turn to harmful habits or feel lost in silence.
+
+                This chatbot is designed for anyone who finds it hard to seek therapy, whether it’s because of cost, access, fear, or simply not knowing where to start. We know that talking to a real person can sometimes feel scary, awkward, or even impossible. That’s why we’re creating a safe digital space where users can open up about things they normally wouldn’t say out loud — without judgment or pressure.
+                
+                It’s more than just a bot — it’s a quiet companion for late nights, a guide through emotional storms, and a first step toward healing. Whether someone is dealing with past trauma, everyday stress, or just needs someone to "listen," we want this chatbot to be there when it matters most.</p>
+                <span style="text-align: center;" data-aos="fade-left">-By:EDT-ChatBot❤️</span>
+             </div>
+                <div class="img " data-aos="fade-right">
+                    <img src="media/—Pngtree—robot_1296122.png" class="" alt="" >
+                </div>
+           </div> 
+<!-- MENTAL HEALTH SECTION -->
+           <section class="mental-health-awareness">
+        <div class="container ">
+            <header class="section-header">
+                <h1 class="main-title">Mental Health Awareness</h1>
+                <p class="subtitle">Understanding, Supporting, and Breaking the Stigma</p>
+            </header>
+
+            <div class="awareness-grid">
+                <article class="awareness-card" data-category="understanding">
+                    <div class="card-icon">
+                        <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z" fill="currentColor"/>
+                        </svg>
+                    </div>
+                    <h3>Understanding Mental Health</h3>
+                    <p>Mental health includes our emotional, psychological, and social well-being. It affects how we think, feel, and act, and determines how we handle stress, relate to others, and make choices. According to the <a href="https://www.who.int/news-room/fact-sheets/detail/mental-disorders" target="_blank" rel="noopener">World Health Organization</a>, one in four people will be affected by mental or neurological disorders at some point in their lives.</p>
+                    <div class="learn-more">
+                        <button class="expand-btn" onclick="toggleContent(this)">Learn More</button>
+                        <div class="expanded-content">
+                            <p>Mental health is just as important as physical health. The <a href="https://www.nimh.nih.gov/health/topics/mental-health-medications" target="_blank" rel="noopener">National Institute of Mental Health</a> emphasizes that mental health conditions are real, common, and treatable. Early intervention and proper support can significantly improve outcomes.</p>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="awareness-card" data-category="signs">
+                    <div class="card-icon">
+                        <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" fill="currentColor"/>
+                        </svg>
+                    </div>
+                    <h3>Recognizing Warning Signs</h3>
+                    <p>Early recognition of mental health challenges is crucial for timely intervention. Common warning signs include persistent sadness, excessive worry, extreme mood changes, and withdrawal from activities. The <a href="https://www.mayoclinic.org/diseases-conditions/mental-illness/symptoms-causes/syc-20374968" target="_blank" rel="noopener">Mayo Clinic</a> provides comprehensive information about symptoms to watch for.</p>
+                    <div class="learn-more">
+                        <button class="expand-btn" onclick="toggleContent(this)">Learn More</button>
+                        <div class="expanded-content">
+                            <ul class="warning-signs-list">
+                                <li>Changes in eating or sleeping patterns</li>
+                                <li>Difficulty concentrating or making decisions</li>
+                                <li>Loss of interest in previously enjoyed activities</li>
+                                <li>Increased use of alcohol or drugs</li>
+                                <li>Thoughts of self-harm or suicide</li>
+                            </ul>
+                            <p>If you notice these signs in yourself or others, reach out to a mental health professional. Resources like <a href="https://www.nami.org/help" target="_blank" rel="noopener">NAMI (National Alliance on Mental Illness)</a> offer support and guidance.</p>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="awareness-card" data-category="support">
+                    <div class="card-icon">
+                        <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M16 4c0-1.11.89-2 2-2s2 .89 2 2-.89 2-2 2-2-.89-2-2zm4 18v-6h2.5l-2.54-7.63A1.5 1.5 0 0 0 18.54 8H16c-.8 0-1.54.37-2.01 1l-2.7 3.6L8.5 11l1.8-2.4A1.5 1.5 0 0 1 11.5 8h3c.28 0 .5-.22.5-.5s-.22-.5-.5-.5h-3c-1.1 0-2.14.56-2.73 1.5L6.5 12 9 14.5l2.5-3.3L14 16v6h6z" fill="currentColor"/>
+                        </svg>
+                    </div>
+                    <h3>Supporting Others</h3>
+                    <p>Supporting someone with mental health challenges requires empathy, patience, and understanding. Simple acts like listening without judgment, offering practical help, and encouraging professional support can make a significant difference. The <a href="https://www.mentalhealth.gov/talk/friends-family-members" target="_blank" rel="noopener">U.S. Department of Health and Human Services</a> provides guidelines on how to help friends and family members.</p>
+                    <div class="learn-more">
+                        <button class="expand-btn" onclick="toggleContent(this)">Learn More</button>
+                        <div class="expanded-content">
+                            <p>Effective support involves active listening, avoiding judgment, and respecting boundaries. Research from <a href="https://www.apa.org/topics/mental-health/help-family-friends" target="_blank" rel="noopener">American Psychological Association</a> shows that social support is one of the most important factors in mental health recovery.</p>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="awareness-card" data-category="resources">
+                    <div class="card-icon">
+                        <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 17.93c-3.94-.49-7-3.85-7-7.93 0-.62.08-1.21.21-1.79L9 15v1c0 1.1.9 2 2 2v1.93zm6.9-2.54c-.26-.81-1-1.39-1.9-1.39h-1v-3c0-.55-.45-1-1-1H8v-2h2c.55 0 1-.45 1-1V7h2c1.1 0 2-.9 2-2v-.41c2.93 1.19 5 4.06 5 7.41 0 2.08-.8 3.97-2.1 5.39z" fill="currentColor"/>
+                        </svg>
+                    </div>
+                    <h3>Resources & Help</h3>
+                    <p>Numerous resources are available for mental health support, including crisis hotlines, therapy services, and support groups. If you're in crisis, contact the <a href="https://988lifeline.org/" target="_blank" rel="noopener">988 Suicide & Crisis Lifeline</a> by calling or texting 988. For ongoing support, consider reaching out to licensed therapists or counselors.</p>
+                    <div class="learn-more">
+                        <button class="expand-btn" onclick="toggleContent(this)">Learn More</button>
+                        <div class="expanded-content">
+                            <div class="resource-links">
+                                <h4>Emergency Resources:</h4>
+                                <p>• <a href="https://988lifeline.org/" target="_blank" rel="noopener">988 Suicide & Crisis Lifeline</a> - 24/7 crisis support</p>
+                                <p>• <a href="https://www.crisistextline.org/" target="_blank" rel="noopener">Crisis Text Line</a> - Text HOME to 741741</p>
+                                
+                                <h4>Professional Help:</h4>
+                                <p>• <a href="https://www.psychologytoday.com/us/therapists" target="_blank" rel="noopener">Psychology Today</a> - Find therapists near you</p>
+                                <p>• <a href="https://www.betterhelp.com/" target="_blank" rel="noopener">BetterHelp</a> - Online therapy platform</p>
+                                
+                                <h4>Articles to Know More</h4>
+                                <p>• <a href="https://www.who.int/news-room/fact-sheets/detail/adolescent-mental-health" target="_blank" rel="noopener">Mental health of adolescents</a> Article from World Health Organization</p>
+                                <p>• <a href="https://www.bbc.com/arabic/interactivity-59512071" target="_blank" rel="noopener">كيف يتعامل الآباء مع الأزمات النفسية التي يمر بها المراهقون؟</a>BBC NEWS بالعربي</p>
+                                <p>• <a href="https://gate.ahram.org.eg/daily/News/205012/15/958784/%D8%A8%D8%B1%D9%8A%D8%AF-%D8%A7%D9%84%D8%A7%D9%87%D8%B1%D8%A7%D9%85/%D8%A7%D9%84%D8%B3%D9%84%D8%A7%D9%85%D8%A9-%D8%A7%D9%84%D9%86%D9%81%D8%B3%D9%8A%D8%A9-%D9%84%D9%84%D9%85%D8%B1%D8%A7%D9%87%D9%82%D9%8A%D9%86.aspx" target="_blank" rel="noopener">السلامة النفسية للمراهقين</a>Ahram Gate</p>
+                                <p>• <a href="https://elaqatkwt.com/%D9%85%D8%B4%D8%A7%D9%83%D9%84-%D8%A7%D9%84%D9%85%D8%B1%D8%A7%D9%87%D9%82%D9%8A%D9%86-%D8%A7%D9%84%D9%86%D9%81%D8%B3%D9%8A%D8%A9/" target="_blank" rel="noopener">مشاكل المراهقين النفسية : فهم الأعراض و طرق العلاج</a>Alaqat</p>
+
+                            </div>
+                        </div>
+                    </div>
+                </article>
+            </div>
+
+            <div class="statistics-section">
+                <h2>Mental Health by the Numbers</h2>
+                <div class="stats-grid">
+                    <div class="stat-item">
+                        <span class="stat-number" data-target="1">0</span>
+                        <span class="stat-label">in 8 people affected globally</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number" data-target="970">0</span>
+                        <span class="stat-label">million people with mental disorders worldwide</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number" data-target="75">0</span>
+                        <span class="stat-label">% of people don't receive treatment</span>
+                    </div>
+                </div>
+                <p class="stats-source">Source: <a href="https://www.who.int/news-room/fact-sheets/detail/mental-disorders" target="_blank" rel="noopener">World Health Organization</a></p>
+            </div>
+
+            <div class="call-to-action">
+                <h2>Take Action Today</h2>
+                <p>Mental health awareness starts with each of us. Whether you're supporting a loved one, seeking help for yourself, or simply learning more about mental health, every step matters.</p>
+                <div class="cta-buttons">
+                    <button id="openResourcesModal" class="cta-btn primary">Find Resources</button>
+                  
+                    <button id="shareInfoBtn" class="cta-btn secondary">Share This Information</button>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Mental Health Resources Modal -->
+    <div id="resourcesModal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2 class="">Mental Health Resources</h2>
+                <span class="close">&times;</span>
+            </div>
+            <div class="modal-body">
+                <div class="resources-tabs">
+                    <button class="tab-btn active" onclick="showTab('crisis')">Crisis Support</button>
+                    <button class="tab-btn" onclick="showTab('therapy')">Find Therapy</button>
+                    <button class="tab-btn" onclick="showTab('support')">Support Groups</button>
+                    <button class="tab-btn" onclick="showTab('specialized')">Specialized Care</button>
+                    <button class="tab-btn" onclick="showTab('wellness')">Wellness Tools</button>
+                </div>
+
+                <div id="crisis" class="tab-content active">
+                    <h3>🚨 Crisis Support - Available 24/7</h3>
+                    <div class="resource-item">
+                        <h4>988 Suicide & Crisis Lifeline</h4>
+                        <p>Call or text <strong>988</strong> for immediate crisis support</p>
+                        <a href="https://988lifeline.org/" target="_blank" rel="noopener">Visit Website</a>
+                    </div>
+                    <div class="resource-item">
+                        <h4>Crisis Text Line</h4>
+                        <p>Text <strong>HOME</strong> to <strong>741741</strong> for 24/7 crisis counseling</p>
+                        <a href="https://www.crisistextline.org/" target="_blank" rel="noopener">Visit Website</a>
+                    </div>
+                    <div class="resource-item">
+                        <h4>NAMI HelpLine</h4>
+                        <p>Call <strong>800-950-6264</strong> or text <strong>NAMI</strong> to <strong>62640</strong></p>
+                        <a href="https://www.nami.org/support-education/nami-helpline/" target="_blank" rel="noopener">Visit Website</a>
+                    </div>
+                    <div class="resource-item">
+                        <h4>The Trevor Project (Youth)</h4>
+                        <p>Call <strong>1-866-488-7386</strong> or text <strong>START</strong> to <strong>678678</strong></p>
+                        <a href="https://www.thetrevorproject.org/" target="_blank" rel="noopener">Visit Website</a>
+                    </div>
+                </div>
+
+                <div id="therapy" class="tab-content">
+                    <h3>🔍 Find Professional Therapy</h3>
+                    <div class="resource-item">
+                        <h4>Psychology Today</h4>
+                        <p>Comprehensive therapist directory with filters for insurance, specialty, and location</p>
+                        <a href="https://www.psychologytoday.com/us/therapists" target="_blank" rel="noopener">Find Therapists</a>
+                    </div>
+                    <div class="resource-item">
+                        <h4>BetterHelp</h4>
+                        <p>Online therapy platform with licensed professionals</p>
+                        <a href="https://www.betterhelp.com/" target="_blank" rel="noopener">Visit Website</a>
+                    </div>
+                    <div class="resource-item">
+                        <h4>GoodTherapy</h4>
+                        <p>Find ethical therapists and mental health resources</p>
+                        <a href="https://www.goodtherapy.org/" target="_blank" rel="noopener">Visit Website</a>
+                    </div>
+                    <div class="resource-item">
+                        <h4>Inclusive Therapists</h4>
+                        <p>Directory focused on BIPOC and affirming therapists</p>
+                        <a href="https://inclusivetherapists.com/" target="_blank" rel="noopener">Visit Website</a>
+                    </div>
+                    <div class="resource-item">
+                        <h4>SAMHSA Treatment Locator</h4>
+                        <p>Find mental health and substance abuse treatment facilities</p>
+                        <a href="https://findtreatment.samhsa.gov/" target="_blank" rel="noopener">Find Treatment</a>
+                    </div>
+                </div>
+
+                <div id="support" class="tab-content">
+                    <h3>🤝 Support Groups & Communities</h3>
+                    <div class="resource-item">
+                        <h4>NAMI Support Groups</h4>
+                        <p>Free support groups for individuals and families affected by mental illness</p>
+                        <a href="https://www.nami.org/Support-Education/Support-Groups" target="_blank" rel="noopener">Find Groups</a>
+                    </div>
+                    <div class="resource-item">
+                        <h4>Mental Health America</h4>
+                        <p>Local affiliates offering support groups and mental health services</p>
+                        <a href="https://mhanational.org/finding-help" target="_blank" rel="noopener">Visit Website</a>
+                    </div>
+                    <div class="resource-item">
+                        <h4>7 Cups</h4>
+                        <p>Free emotional support from trained listeners</p>
+                        <a href="https://www.7cups.com/" target="_blank" rel="noopener">Visit Website</a>
+                    </div>
+                    <div class="resource-item">
+                        <h4>Q Chat Space (LGBTQ+ Youth)</h4>
+                        <p>Online support groups for LGBTQ+ teens</p>
+                        <a href="https://www.qchatspace.org/" target="_blank" rel="noopener">Visit Website</a>
+                    </div>
+                    <div class="resource-item">
+                        <h4>Recovery Dharma Online</h4>
+                        <p>Buddhist-inspired recovery meetings and support</p>
+                        <a href="https://recoverydharma.online/" target="_blank" rel="noopener">Visit Website</a>
+                    </div>
+                </div>
+
+                <div id="specialized" class="tab-content">
+                    <h3>🎯 Specialized Mental Health Care</h3>
+                    <div class="resource-item">
+                        <h4>Child Mind Institute</h4>
+                        <p>Resources for children and adolescent mental health</p>
+                        <a href="https://childmind.org/" target="_blank" rel="noopener">Visit Website</a>
+                    </div>
+                    <div class="resource-item">
+                        <h4>Kids Mental Health Foundation</h4>
+                        <p>Free resources for children's mental health</p>
+                        <a href="https://kidsmentalhealthfoundation.org/" target="_blank" rel="noopener">Visit Website</a>
+                    </div>
+                    <div class="resource-item">
+                        <h4>Institute for Muslim Mental Health</h4>
+                        <p>Mental health resources rooted in Islamic principles</p>
+                        <a href="https://muslimmentalhealth.com/" target="_blank" rel="noopener">Visit Website</a>
+                    </div>
+                    <div class="resource-item">
+                        <h4>Khalil Center</h4>
+                        <p>Psychological and spiritual wellness center with Islamic approach</p>
+                        <a href="https://khalilcenter.com/" target="_blank" rel="noopener">Visit Website</a>
+                    </div>
+                    <div class="resource-item">
+                        <h4>Latinx Parenting</h4>
+                        <p>Bilingual mental health resources for Latino families</p>
+                        <a href="https://latinxparenting.org/" target="_blank" rel="noopener">Visit Website</a>
+                    </div>
+                    <div class="resource-item">
+                        <h4>Rural Minds</h4>
+                        <p>Mental health information and resources for rural communities</p>
+                        <a href="https://ruralminds.org/" target="_blank" rel="noopener">Visit Website</a>
+                    </div>
+                </div>
+
+                <div id="wellness" class="tab-content">
+                    <h3>🧘 Wellness & Self-Care Tools</h3>
+                    <div class="resource-item">
+                        <h4>Headspace</h4>
+                        <p>Meditation, sleep, and stress reduction app with free content</p>
+                        <a href="https://www.headspace.com/" target="_blank" rel="noopener">Visit Website</a>
+                    </div>
+                    <div class="resource-item">
+                        <h4>Calm</h4>
+                        <p>Meditation and relaxation app for better mental health</p>
+                        <a href="https://www.calm.com/" target="_blank" rel="noopener">Visit Website</a>
+                    </div>
+                    <div class="resource-item">
+                        <h4>Mindful.org</h4>
+                        <p>Practical mindfulness and meditation resources</p>
+                        <a href="https://www.mindful.org/" target="_blank" rel="noopener">Visit Website</a>
+                    </div>
+                    <div class="resource-item">
+                        <h4>Teen Talk App</h4>
+                        <p>Free, safe space for teens to talk about mental health</p>
+                        <a href="https://teentalkapp.org/" target="_blank" rel="noopener">Visit Website</a>
+                    </div>
+                    <div class="resource-item">
+                        <h4>ClearlyMe (Teen App)</h4>
+                        <p>Coping strategies app for teens aged 12-17</p>
+                        <a href="https://www.clearlyme.com.au/" target="_blank" rel="noopener">Visit Website</a>
+                    </div>
+                    <div class="resource-item">
+                        <h4>Rooted in Radiance</h4>
+                        <p>Culturally tailored wellness programming for underinvested communities</p>
+                        <a href="https://rootedinradiance.com/" target="_blank" rel="noopener">Visit Website</a>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <p><strong>Remember:</strong> If you're in immediate danger, call 911 or go to your nearest emergency room.</p>
+            </div>
+        </div>
+    </div>
+
+    
+    
+    
+    
+    
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+        </script>
+      <script src="JS/test.js"></script>
+</body>
+</html>
